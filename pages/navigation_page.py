@@ -41,7 +41,6 @@ class NavigationPage(SeleniumDriver):
 
     def clickSignIn(self):
         self.elementClick(self._signIn, locatorType="css")
-        # time.sleep(1)
         self.demoSpeed()
 
     def clickFlightBtn(self):
