@@ -2,7 +2,6 @@ import time
 from base.selenium_driver import SeleniumDriver
 from datetime import datetime
 from datetime import timedelta
-import logging
 
 class SearchPage(SeleniumDriver):
     def __init__(self, driver):
