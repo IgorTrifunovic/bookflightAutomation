@@ -26,6 +26,8 @@ class SearchPage(SeleniumDriver):
     _dateElement = 'div[aria-label*="{}"]'
     _datePreviousMonthChangeBtn = 'button[aria-label="Previous month"]'
     _dateNextMonthChangeBtn = 'button[aria-label="Next Month"]'
+    _searchResultDates = """button[class='Button-No-Standard-Style js-bar item selected '][data-date*="{}"]"""
+
 # Inputs:
     def clearFromInputField(self):
         self.elementClick(self._clearPastDestinations)
@@ -53,17 +55,29 @@ class SearchPage(SeleniumDriver):
         time.sleep(2)
 
     def scrollToPriceFilter(self):
-        self.webScroll("down") * 2
+        self.webScroll("down")
+        self.log.info("Scrolled down once")
+        time.sleep(3)
+
+        self.webScroll("down")
+        self.log.info("Scrolled down twice")
+
+        time.sleep(3)
+        self.webScroll("down")
+        self.log.info("Scrolled down third time")
+
 
     def clickPriceFilter(self):
         self.elementClick(self._priceField)
 
     def usePriceSlider(self):
         time.sleep(3)
-        self.moveSlideBar(40, 0, self.getElement(self._priceSliderHandle))
+        self.moveSlideBar(100, 0, self.getElement(self._priceSliderHandle))
+        time.sleep(6)
 
+    today = datetime.now().strftime("%A %B %-d")
     def selectDepartureDate(self):
-        today = datetime.now().strftime("%A %B %-d")
+        global today
         self.elementClick(self._departureDateDropdown)
         for x in range(0, 12):
             if self.isElementPresent(self._dateElement.format(today)) is False:
@@ -82,10 +96,11 @@ class SearchPage(SeleniumDriver):
                 break
 
 
-
+    returnDate = datetime.now() + timedelta(days=100)
+    returnDateStr = returnDate.strftime("%A %B %-d")
     def selectReturnDate(self):
-        returnDate = datetime.now() + timedelta(days=100)
-        returnDateStr = returnDate.strftime("%A %B %-d")
+        global returnDate
+        global returnDateStr
         self.elementClick(self._returnDateDropdown)
         for x in range(0, 12):
             if self.isElementPresent(self._dateElement.format(returnDateStr)) is False:
@@ -103,12 +118,25 @@ class SearchPage(SeleniumDriver):
                 self.elementClick(self._dateElement.format(returnDateStr))
                 break
 
+    def clickPriceFilter(self):
+        self.elementClick(self._priceField, "css")
+
+    def usePriceSlider(self):
+        time.sleep(2)
+        self.moveSlideBar(40, 0, self.getElement(self._priceSliderHandle, "css"))
+
 
 # Assertion:
     def verifySearchResult(self, from_destination, to_destination):
         self.webScroll("down")
         textFromDestination = self.getAttributeTitle(self._searchResult_from.format(from_destination), "css")
         textToDestination = self.getAttributeTitle(self._searchResult_from.format(to_destination), "css")
-        assert from_destination in textFromDestination and to_destination in textToDestination
+        if from_destination in textFromDestination and to_destination in textToDestination:
+            return True
 
+    def verifySearchDates(self):
+        fromDate = self.isElementPresent(self._searchResultDates.format(today), "css")
+        toDate = self.isElementPresent(self._searchResultDates.format(returnDateStr), "css")
+        if fromDate and toDate is not None:
+            return True
 
