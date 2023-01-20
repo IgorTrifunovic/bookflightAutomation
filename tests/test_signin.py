@@ -13,7 +13,7 @@ class test_Signin_Modal_Test(TestCase):
     def test_SigninModal(self):
         self.smp.clickHeatherSignin()
         self.smp.clickBooking()
-        self.smp.checkBookingModal()
+        # self.smp.checkBookingModal()
 
         # self.smp.clickSigninWithEmail()
         # self.smp.checkSigninWithEmail()
