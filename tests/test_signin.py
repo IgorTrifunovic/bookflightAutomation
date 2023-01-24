@@ -2,18 +2,27 @@ from unittest import TestCase
 from selenium import webdriver
 from pages.signin_page import SigninPage
 
-class test_Signin_Modal_Test(TestCase):
+class Signin_Page_Test(TestCase):
     driver = webdriver.Chrome()
     driver.implicitly_wait(5)
     baseUrl = "https://www.momondo.com/"
     driver.maximize_window()
     driver.get(baseUrl)
-    smp = SigninPage(driver)
+    sp = SigninPage(driver)
 
     def test_SigninModal(self):
-        self.smp.clickHeatherSignin()
-        self.smp.clickBooking()
-        # self.smp.checkBookingModal()
+        self.sp.clickHeatherSignin()
+        self.sp.clickBooking()
+        print(self.sp.checkBookingModal())
+        # self.sp.clickFacebook()
+        # assert self.sp.checkFbModal() is not None
+        # self.sp.clickSigninWithEmail()
+        # siginWithEmailResult = self.sp.checkSigninWithEmail()
+        # self.sp.clickBooking()
+        # bookingModalResult = self.sp.checkBookingModal()
+        # self.sp.clickSigninWithEmail()
+        # siginWithEmailResult = self.sp.checkSigninWithEmail()
 
-        # self.smp.clickSigninWithEmail()
-        # self.smp.checkSigninWithEmail()
+        # assert siginWithEmailResult and fbModalResult and bookingModalResult is not None
+
+
