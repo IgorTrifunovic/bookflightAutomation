@@ -2,7 +2,7 @@ import time
 from base.selenium_driver import SeleniumDriver
 from datetime import datetime
 from datetime import timedelta
-import re
+
 
 todaySelect = datetime.now().strftime("%A %B %-d")
 returnDate = datetime.now() + timedelta(days=100)
@@ -112,16 +112,14 @@ class SearchPage(SeleniumDriver):
 
 
     def selectReturnDate(self):
-        # global returnDate
-        # global returnDateStr
         self.elementClick(self._returnDateDropdown)
         for x in range(0, 12):
             if self.isElementPresent(self._dateElement.format(returnDateSelect)) is False:
                 self.log.info("Return date not found, trying next month!")
                 self.elementClick(self._dateNextMonthChangeBtn)
             else:
+                self.ifElementNotClicable(self._dateElement, returnDateSelect, self._dateNextMonthChangeBtn)
                 self.log.info("Return date is found, selecting it!")
-                self.elementClick(self._dateElement.format(returnDateSelect))
                 break
 
 
@@ -142,23 +140,40 @@ class SearchPage(SeleniumDriver):
         if fromDate and toDate is not None:
             return True
 
+
+    def priceListHandler(self, pricesAfterFilter):
+        pricesTxts = []
+        for eachPrice in pricesAfterFilter:
+            if eachPrice is not None:
+                one_price = eachPrice.text.strip('$').replace(',', '')
+                pricesTxts.append(one_price)
+            else:
+                pass
+        return pricesTxts
+
     def verifyPriceFilterResult(self):
         priceText = self.getText(self._priceFilterMaxRange).strip('$').replace(',', '')
         priceInt = int(priceText)
         self.log.info("==== Filter should display flights up to this price: " + str(priceInt))
         pricesAfterFilter = self.getElementList(self._pricesOnFlightsPage, "css")
-        print(pricesAfterFilter)
-        time.sleep(0)
-        for everyPrice in pricesAfterFilter:
-            pricesTxts = everyPrice.text.strip('$').replace(',', '')
-            print(pricesTxts)
+
+        pricesTxts = self.priceListHandler(pricesAfterFilter)
+        pricesInts = []
+        for eachPrice in pricesTxts:
+            eachInt = int(eachPrice)
+            pricesInts.append(eachInt)
+            if any(x < priceInt for x in pricesInts):
+                return True
+            else:
+                return False
+
+            # result = any(map(lambda x: x < priceInt, pricesInts))
+            # print(result)
 
 
-            # for x in pricesInts:
-            #     if x < priceInt:
-            #         return True
-            #     else:
-            #         return False
+
+        #     for x in pricesTxts:
+        #         if any(x<priceInt for x in pricesTxts):
 
         # prices = []
         # for everyPrice in pricesAfterFilter:
