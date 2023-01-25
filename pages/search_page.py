@@ -5,6 +5,7 @@ from datetime import timedelta
 
 
 todaySelect = datetime.now().strftime("%A %B %-d")
+# todaySelect = "Wednesday May 10"      #test value
 returnDate = datetime.now() + timedelta(days=100)
 returnDateSelect = returnDate.strftime("%A %B %-d")
 todayAssert = datetime.now().strftime("%Y" + "-" + "%m" + "-" + "%d")
@@ -107,9 +108,8 @@ class SearchPage(SeleniumDriver):
             else:
                 self.log.info("Return date is found, selecting it!")
                 self.elementClick(self._dateElement.format(todaySelect))
+                self.log.info("Return date clicked!")
                 break
-
-
 
     def selectReturnDate(self):
         self.elementClick(self._returnDateDropdown)
@@ -118,27 +118,77 @@ class SearchPage(SeleniumDriver):
                 self.log.info("Return date not found, trying next month!")
                 self.elementClick(self._dateNextMonthChangeBtn)
             else:
-                self.ifElementNotClicable(self._dateElement, returnDateSelect, self._dateNextMonthChangeBtn)
-                self.log.info("Return date is found, selecting it!")
-                break
+                if self.isEnabled(self._dateElement.format(returnDateSelect)) is False:
+                    self.log.info("Return date is Disabled, trying next month for enabled element match!")
+                    self.elementClick(self._dateNextMonthChangeBtn)
+                    time.sleep(1)
+
+                else:
+                    if self.isEnabled(self._dateElement.format(returnDateSelect)) is True:
+                        self.elementClick(self._dateElement.format(returnDateSelect))
+                        self.log.info("=== Return Date element found!!! ===")
+                        break
+                    else:
+                        self.log.info("=== Return Date is still disabled, could not select it!!! ===")
+                        break
+
+            if self.isEnabled(self._dateElement.format(returnDateSelect)) is False:
+                self.log.info("Return date is Disabled, trying next month for enabled element match!")
+                self.elementClick(self._dateNextMonthChangeBtn)
+                time.sleep(1)
+            else:
+                if self.isEnabled(self._dateElement.format(returnDateSelect)) is True:
+                    self.elementClick(self._dateElement.format(returnDateSelect))
+                    self.log.info("=== Return Date element found!!! ===")
+                    break
+                else:
+                    self.log.info("=== Return Date is still disabled, could not select it!!! ===")
+                    break
 
 
 
 
-# Assertion:
+
+    # depricated (for removal)
+        # for x in range(0, 12):
+        #     if self.isEnabled(self._dateElement.format(returnDateSelect)) is False:
+        #         self.log.info("Return date not found, trying next month!")
+        #         self.elementClick(self._dateNextMonthChangeBtn)
+        #     elif self.isEnabled(self._dateElement.format(returnDateSelect)) is True:
+        #         time.sleep(1)
+        #         self.elementClick(self._dateElement.format(returnDateSelect))
+        #         self.log.info("=== Return Date element found!!! ===")
+        #     else:
+        #         self.log.info("=== Return Date is still disabled, could not select it!!! ===")
+        #     self.elementClick(self._dateElement.format(returnDateSelect))
+        #     time.sleep(1)
+        #     break
+
+    # Assertion:
     def verifySearchResult(self, from_destination, to_destination):
         textFromDestination = self.getAttributeTitle(self._searchResult_from.format(from_destination), "css")
         textToDestination = self.getAttributeTitle(self._searchResult_from.format(to_destination), "css")
         if from_destination in textFromDestination and to_destination in textToDestination:
             return True
 
-    def verifySearchDates(self):
-        fromDate = self.isElementPresent(self._searchResultDates.format(todayAssert), "css")
-        self.log.info("Web Element with selected Departure date is present!")
-        toDate = self.isElementPresent(self._searchResultDates.format(returnDateAssert), "css")
-        self.log.info("Web Element with selected Return date is present!")
-        if fromDate and toDate is not None:
+    def verifyDepartureDates(self):
+        element = self.isElementPresent(self._searchResultDates.format(todayAssert), "css")
+        if element is True:
+            self.log.info("Web Element with selected Departure date is present!")
             return True
+        else:
+            self.log.info("Web Element with selected Return date is NOT present! Changing results to False.")
+            return False
+
+
+    def verifyReturnDates(self):
+        element = self.isElementPresent(self._searchResultDates.format(returnDateAssert), "css")
+        if element is True:
+            self.log.info("Web Element with selected Return date is present!")
+            return True
+        else:
+            self.log.info("Web Element with selected Return date is NOT present! Changing results to False.")
+            return False
 
 
     def priceListHandler(self, pricesAfterFilter):
@@ -148,7 +198,7 @@ class SearchPage(SeleniumDriver):
                 one_price = eachPrice.text.strip('$').replace(',', '')
                 pricesTxts.append(one_price)
             else:
-                pass
+                self.log.info("==== Prices after price filter are None!!! =====")
         return pricesTxts
 
     def verifyPriceFilterResult(self):
@@ -166,20 +216,11 @@ class SearchPage(SeleniumDriver):
                 return True
             else:
                 return False
+        self.log.info("++++++Prices found on page are: ".join(str(pricesInts)))        # TEST it, -doesnt work,
 
             # result = any(map(lambda x: x < priceInt, pricesInts))
             # print(result)
 
-
-
-        #     for x in pricesTxts:
-        #         if any(x<priceInt for x in pricesTxts):
-
-        # prices = []
-        # for everyPrice in pricesAfterFilter:
-        #     text = self.getText(everyPrice)
-        #     prices.append(text)
-        # print(prices)
 
 
 
