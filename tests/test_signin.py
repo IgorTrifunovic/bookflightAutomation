@@ -1,9 +1,13 @@
 from unittest import TestCase
 from selenium import webdriver
 from pages.signin_page import SigninPage
+from selenium.webdriver.chrome.options import Options
+
 
 class Signin_Page_Test(TestCase):
-    driver = webdriver.Chrome()
+    chrom_opt = Options()
+    chrom_opt.add_argument("--incognito")
+    driver = webdriver.Chrome(options=chrom_opt)
     driver.implicitly_wait(5)
     baseUrl = "https://www.momondo.com/"
     driver.maximize_window()
@@ -12,7 +16,7 @@ class Signin_Page_Test(TestCase):
 
     def test_SigninModal(self):
         self.sp.clickHeatherSignin()
-        self.sp.clickBooking()
+        # self.sp.clickBooking()
         print(self.sp.checkBookingModal())
         # self.sp.clickFacebook()
         # assert self.sp.checkFbModal() is not None

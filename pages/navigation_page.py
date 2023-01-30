@@ -6,8 +6,6 @@ class NavigationPage(SeleniumDriver):
         super().__init__(driver)
         self.driver = driver
 
-    def demoSpeed(self):
-        time.sleep(0)
 
     # Locators
 
@@ -23,6 +21,8 @@ class NavigationPage(SeleniumDriver):
     _travelRestrictionsBtn = "[aria-label='Find out where you can travel']"
     _tripsBtn = 'div[class=UVLb] [href="/trips"]'
     _closeSignInBtn = ".dDYU-closeIcon.dDYU-mod-theme-default"
+    _signInFromHeather = "div.sign-in-nav-link"
+
 
     # 2. Xpath:
     _flights_title = "//h2[contains(.,'Find and compare cheap flights')]"
@@ -39,41 +39,35 @@ class NavigationPage(SeleniumDriver):
     #     self.elementClick(self.LOCATOR, locatorType="css")      # we may need it for mobile
     #     time.sleep(1)
 
+    def clickHeatherSignin(self):
+        self.elementClick(self._signInFromHeather, locatorType="css")
+
     def clickSignIn(self):
         self.elementClick(self._signIn, locatorType="css")
-        self.demoSpeed()
 
     def clickFlightBtn(self):
         self.elementClick(self._flightBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickStays(self):
         self.elementClick(self._staysBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickCarRental(self):
         self.elementClick(self._carrentalBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickCarTrainsBuses(self):
         self.elementClick(self._carTrainsBusesBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickPackages(self):
         self.elementClick(self._packageBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickExplore(self):
         self.elementClick(self._exploreBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickTravelRestrictions(self):
         self.elementClick(self._travelRestrictionsBtn, locatorType="css")
-        self.demoSpeed()
 
     def clickTrips(self):
         self.elementClick(self._tripsBtn, locatorType="css")
-        self.demoSpeed()
 
     # Assertions:
     def verifySignIn_page(self):
