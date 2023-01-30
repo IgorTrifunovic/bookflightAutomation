@@ -92,7 +92,6 @@ class SearchPage(SeleniumDriver):
         time.sleep(2)
 
     def selectDepartureDate(self):
-        # global today
         self.elementClick(self._departureDateDropdown)
         for x in range(0, 12):
             if self.isElementPresent(self._dateElement.format(todaySelect)) is False:
