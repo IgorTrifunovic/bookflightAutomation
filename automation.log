@@ -1,0 +1,1537 @@
+25/01/2023 03:55:22 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+25/01/2023 03:55:22 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+25/01/2023 03:55:23 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+25/01/2023 03:55:23 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+25/01/2023 03:55:23 PM - SeleniumDriver - INFO: =========entered check booking modal============
+25/01/2023 03:55:29 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+25/01/2023 03:55:29 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x563154d2e2a3 <unknown>
+#1 0x563154aecf77 <unknown>
+#2 0x563154b2980c <unknown>
+#3 0x563154b29a71 <unknown>
+#4 0x563154b63734 <unknown>
+#5 0x563154b49b5d <unknown>
+#6 0x563154b6147c <unknown>
+#7 0x563154b49903 <unknown>
+#8 0x563154b1cece <unknown>
+#9 0x563154b1dfde <unknown>
+#10 0x563154d7e63e <unknown>
+#11 0x563154d81b79 <unknown>
+#12 0x563154d6489e <unknown>
+#13 0x563154d82a83 <unknown>
+#14 0x563154d57505 <unknown>
+#15 0x563154da3ca8 <unknown>
+#16 0x563154da3e36 <unknown>
+#17 0x563154dbf333 <unknown>
+#18 0x7f3542e94b43 <unknown>
+
+
+25/01/2023 03:55:29 PM - SeleniumDriver - INFO: Switching browser window!
+25/01/2023 03:55:29 PM - SeleniumDriver - INFO: CDwindow-885675022A5212A9A2898714CAECACEC
+25/01/2023 03:55:29 PM - SeleniumDriver - INFO: Locator type  not correct/supported
+25/01/2023 03:55:29 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: 
+25/01/2023 03:55:29 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'using' must be a string
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x563154d2e2a3 <unknown>
+#1 0x563154aecf77 <unknown>
+#2 0x563154b29334 <unknown>
+#3 0x563154b29a71 <unknown>
+#4 0x563154b63734 <unknown>
+#5 0x563154b49b5d <unknown>
+#6 0x563154b6147c <unknown>
+#7 0x563154b49903 <unknown>
+#8 0x563154b1cece <unknown>
+#9 0x563154b1dfde <unknown>
+#10 0x563154d7e63e <unknown>
+#11 0x563154d81b79 <unknown>
+#12 0x563154d6489e <unknown>
+#13 0x563154d82a83 <unknown>
+#14 0x563154d57505 <unknown>
+#15 0x563154da3ca8 <unknown>
+#16 0x563154da3e36 <unknown>
+#17 0x563154dbf333 <unknown>
+#18 0x7f3542e94b43 <unknown>
+
+
+25/01/2023 04:08:03 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+25/01/2023 04:08:03 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+25/01/2023 04:08:04 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+25/01/2023 04:08:04 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+25/01/2023 04:08:09 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+25/01/2023 04:08:09 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55c6fc8e72a3 <unknown>
+#1 0x55c6fc6a5f77 <unknown>
+#2 0x55c6fc6e280c <unknown>
+#3 0x55c6fc6e2a71 <unknown>
+#4 0x55c6fc71c734 <unknown>
+#5 0x55c6fc702b5d <unknown>
+#6 0x55c6fc71a47c <unknown>
+#7 0x55c6fc702903 <unknown>
+#8 0x55c6fc6d5ece <unknown>
+#9 0x55c6fc6d6fde <unknown>
+#10 0x55c6fc93763e <unknown>
+#11 0x55c6fc93ab79 <unknown>
+#12 0x55c6fc91d89e <unknown>
+#13 0x55c6fc93ba83 <unknown>
+#14 0x55c6fc910505 <unknown>
+#15 0x55c6fc95cca8 <unknown>
+#16 0x55c6fc95ce36 <unknown>
+#17 0x55c6fc978333 <unknown>
+#18 0x7f646f494b43 <unknown>
+
+
+25/01/2023 04:08:09 PM - SeleniumDriver - INFO: ===== entered swich window =====
+25/01/2023 04:08:10 PM - SeleniumDriver - INFO: Switching browser window!
+25/01/2023 04:08:10 PM - SeleniumDriver - INFO: CDwindow-53BCDA85598FD19C6E7D23E26311CE69
+25/01/2023 04:33:19 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+25/01/2023 04:33:19 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+25/01/2023 04:33:20 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+25/01/2023 04:33:20 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+25/01/2023 04:33:25 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+25/01/2023 04:33:25 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x5613d795d2a3 <unknown>
+#1 0x5613d771bf77 <unknown>
+#2 0x5613d775880c <unknown>
+#3 0x5613d7758a71 <unknown>
+#4 0x5613d7792734 <unknown>
+#5 0x5613d7778b5d <unknown>
+#6 0x5613d779047c <unknown>
+#7 0x5613d7778903 <unknown>
+#8 0x5613d774bece <unknown>
+#9 0x5613d774cfde <unknown>
+#10 0x5613d79ad63e <unknown>
+#11 0x5613d79b0b79 <unknown>
+#12 0x5613d799389e <unknown>
+#13 0x5613d79b1a83 <unknown>
+#14 0x5613d7986505 <unknown>
+#15 0x5613d79d2ca8 <unknown>
+#16 0x5613d79d2e36 <unknown>
+#17 0x5613d79ee333 <unknown>
+#18 0x7fe321094b43 <unknown>
+
+
+25/01/2023 04:34:34 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+25/01/2023 04:34:34 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+25/01/2023 04:34:35 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+25/01/2023 04:34:35 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+25/01/2023 04:34:40 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+25/01/2023 04:34:40 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x56519fca42a3 <unknown>
+#1 0x56519fa62f77 <unknown>
+#2 0x56519fa9f80c <unknown>
+#3 0x56519fa9fa71 <unknown>
+#4 0x56519fad9734 <unknown>
+#5 0x56519fabfb5d <unknown>
+#6 0x56519fad747c <unknown>
+#7 0x56519fabf903 <unknown>
+#8 0x56519fa92ece <unknown>
+#9 0x56519fa93fde <unknown>
+#10 0x56519fcf463e <unknown>
+#11 0x56519fcf7b79 <unknown>
+#12 0x56519fcda89e <unknown>
+#13 0x56519fcf8a83 <unknown>
+#14 0x56519fccd505 <unknown>
+#15 0x56519fd19ca8 <unknown>
+#16 0x56519fd19e36 <unknown>
+#17 0x56519fd35333 <unknown>
+#18 0x7f1170a94b43 <unknown>
+
+
+25/01/2023 04:37:40 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+25/01/2023 04:37:41 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+25/01/2023 04:37:41 PM - SeleniumDriver - INFO: Element found with locator: div.continueWithEmail and  locatorType: css
+25/01/2023 04:37:41 PM - SeleniumDriver - INFO: Clicked on element with locator: div.continueWithEmail locatorType: css
+25/01/2023 04:37:46 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+25/01/2023 04:37:46 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55b9d4e6d2a3 <unknown>
+#1 0x55b9d4c2bf77 <unknown>
+#2 0x55b9d4c6880c <unknown>
+#3 0x55b9d4c68a71 <unknown>
+#4 0x55b9d4ca2734 <unknown>
+#5 0x55b9d4c88b5d <unknown>
+#6 0x55b9d4ca047c <unknown>
+#7 0x55b9d4c88903 <unknown>
+#8 0x55b9d4c5bece <unknown>
+#9 0x55b9d4c5cfde <unknown>
+#10 0x55b9d4ebd63e <unknown>
+#11 0x55b9d4ec0b79 <unknown>
+#12 0x55b9d4ea389e <unknown>
+#13 0x55b9d4ec1a83 <unknown>
+#14 0x55b9d4e96505 <unknown>
+#15 0x55b9d4ee2ca8 <unknown>
+#16 0x55b9d4ee2e36 <unknown>
+#17 0x55b9d4efe333 <unknown>
+#18 0x7f44a5294b43 <unknown>
+
+
+26/01/2023 09:22:45 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 09:22:45 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 09:23:20 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 09:23:21 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 09:23:22 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 09:23:22 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 09:32:45 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 09:32:45 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 09:32:46 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 09:32:46 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:00:39 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:00:39 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:00:40 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:00:40 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:04:36 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:04:36 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:04:37 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:04:37 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:05:22 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:05:23 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:05:57 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:05:57 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:07:12 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:07:12 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:07:19 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:07:19 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:08:01 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:08:01 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:08:05 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:08:05 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:10:16 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:10:16 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:10:17 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:10:17 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:10:22 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 10:10:22 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55872b5262a3 <unknown>
+#1 0x55872b2e4f77 <unknown>
+#2 0x55872b32180c <unknown>
+#3 0x55872b321a71 <unknown>
+#4 0x55872b35b734 <unknown>
+#5 0x55872b341b5d <unknown>
+#6 0x55872b35947c <unknown>
+#7 0x55872b341903 <unknown>
+#8 0x55872b314ece <unknown>
+#9 0x55872b315fde <unknown>
+#10 0x55872b57663e <unknown>
+#11 0x55872b579b79 <unknown>
+#12 0x55872b55c89e <unknown>
+#13 0x55872b57aa83 <unknown>
+#14 0x55872b54f505 <unknown>
+#15 0x55872b59bca8 <unknown>
+#16 0x55872b59be36 <unknown>
+#17 0x55872b5b7333 <unknown>
+#18 0x7f13b8694b43 <unknown>
+
+
+26/01/2023 10:10:22 AM - SeleniumDriver - INFO: None
+26/01/2023 10:12:23 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:12:24 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:12:25 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:12:25 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:12:30 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 10:12:30 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x558d6c1542a3 <unknown>
+#1 0x558d6bf12f77 <unknown>
+#2 0x558d6bf4f80c <unknown>
+#3 0x558d6bf4fa71 <unknown>
+#4 0x558d6bf89734 <unknown>
+#5 0x558d6bf6fb5d <unknown>
+#6 0x558d6bf8747c <unknown>
+#7 0x558d6bf6f903 <unknown>
+#8 0x558d6bf42ece <unknown>
+#9 0x558d6bf43fde <unknown>
+#10 0x558d6c1a463e <unknown>
+#11 0x558d6c1a7b79 <unknown>
+#12 0x558d6c18a89e <unknown>
+#13 0x558d6c1a8a83 <unknown>
+#14 0x558d6c17d505 <unknown>
+#15 0x558d6c1c9ca8 <unknown>
+#16 0x558d6c1c9e36 <unknown>
+#17 0x558d6c1e5333 <unknown>
+#18 0x7fc232494b43 <unknown>
+
+
+26/01/2023 10:12:30 AM - SeleniumDriver - INFO: None
+26/01/2023 10:42:52 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:42:52 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:42:53 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:42:54 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:42:56 AM - SeleniumDriver - INFO: Element found with locator: a[rel='noopener noreferrer'] and  locatorType: css
+26/01/2023 10:42:56 AM - SeleniumDriver - INFO: None
+26/01/2023 10:43:20 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:43:20 AM - SeleniumDriver - INFO: Cannot click on the element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:43:21 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: .social-button-icon.social-button-icon-booking and locatorType: css
+26/01/2023 10:43:21 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x5623224ce2a3 <unknown>
+#1 0x56232228cf77 <unknown>
+#2 0x562322268515 <unknown>
+#3 0x5623222edfff <unknown>
+#4 0x562322300e43 <unknown>
+#5 0x5623222e9903 <unknown>
+#6 0x5623222bcece <unknown>
+#7 0x5623222bdfde <unknown>
+#8 0x56232251e63e <unknown>
+#9 0x562322521b79 <unknown>
+#10 0x56232250489e <unknown>
+#11 0x562322522a83 <unknown>
+#12 0x5623224f7505 <unknown>
+#13 0x562322543ca8 <unknown>
+#14 0x562322543e36 <unknown>
+#15 0x56232255f333 <unknown>
+#16 0x7fdc81094b43 <unknown>
+
+
+26/01/2023 10:43:21 AM - SeleniumDriver - INFO: Cannot click on the element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:43:21 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 10:43:21 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x5623224ce2a3 <unknown>
+#1 0x56232228cf77 <unknown>
+#2 0x562322268515 <unknown>
+#3 0x5623222edfff <unknown>
+#4 0x562322300e43 <unknown>
+#5 0x5623222e9903 <unknown>
+#6 0x5623222bcece <unknown>
+#7 0x5623222bdfde <unknown>
+#8 0x56232251e63e <unknown>
+#9 0x562322521b79 <unknown>
+#10 0x56232250489e <unknown>
+#11 0x562322522a83 <unknown>
+#12 0x5623224f7505 <unknown>
+#13 0x562322543ca8 <unknown>
+#14 0x562322543e36 <unknown>
+#15 0x56232255f333 <unknown>
+#16 0x7fdc81094b43 <unknown>
+
+
+26/01/2023 10:43:21 AM - SeleniumDriver - INFO: None
+26/01/2023 10:43:33 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:43:33 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:43:34 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: .social-button-icon.social-button-icon-booking and locatorType: css
+26/01/2023 10:43:34 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x56288c21f2a3 <unknown>
+#1 0x56288bfddf77 <unknown>
+#2 0x56288bfb9515 <unknown>
+#3 0x56288c03efff <unknown>
+#4 0x56288c051e43 <unknown>
+#5 0x56288c03a903 <unknown>
+#6 0x56288c00dece <unknown>
+#7 0x56288c00efde <unknown>
+#8 0x56288c26f63e <unknown>
+#9 0x56288c272b79 <unknown>
+#10 0x56288c25589e <unknown>
+#11 0x56288c273a83 <unknown>
+#12 0x56288c248505 <unknown>
+#13 0x56288c294ca8 <unknown>
+#14 0x56288c294e36 <unknown>
+#15 0x56288c2b0333 <unknown>
+#16 0x7f5423094b43 <unknown>
+
+
+26/01/2023 10:43:34 AM - SeleniumDriver - INFO: Cannot click on the element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:43:34 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 10:43:34 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x56288c21f2a3 <unknown>
+#1 0x56288bfddf77 <unknown>
+#2 0x56288bfb9515 <unknown>
+#3 0x56288c03efff <unknown>
+#4 0x56288c051e43 <unknown>
+#5 0x56288c03a903 <unknown>
+#6 0x56288c00dece <unknown>
+#7 0x56288c00efde <unknown>
+#8 0x56288c26f63e <unknown>
+#9 0x56288c272b79 <unknown>
+#10 0x56288c25589e <unknown>
+#11 0x56288c273a83 <unknown>
+#12 0x56288c248505 <unknown>
+#13 0x56288c294ca8 <unknown>
+#14 0x56288c294e36 <unknown>
+#15 0x56288c2b0333 <unknown>
+#16 0x7f5423094b43 <unknown>
+
+
+26/01/2023 10:43:34 AM - SeleniumDriver - INFO: None
+26/01/2023 10:46:31 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:46:31 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:46:32 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:46:32 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:46:37 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 10:46:37 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55a3747b12a3 <unknown>
+#1 0x55a37456ff77 <unknown>
+#2 0x55a3745ac80c <unknown>
+#3 0x55a3745aca71 <unknown>
+#4 0x55a3745e6734 <unknown>
+#5 0x55a3745ccb5d <unknown>
+#6 0x55a3745e447c <unknown>
+#7 0x55a3745cc903 <unknown>
+#8 0x55a37459fece <unknown>
+#9 0x55a3745a0fde <unknown>
+#10 0x55a37480163e <unknown>
+#11 0x55a374804b79 <unknown>
+#12 0x55a3747e789e <unknown>
+#13 0x55a374805a83 <unknown>
+#14 0x55a3747da505 <unknown>
+#15 0x55a374826ca8 <unknown>
+#16 0x55a374826e36 <unknown>
+#17 0x55a374842333 <unknown>
+#18 0x7f7e7ce94b43 <unknown>
+
+
+26/01/2023 10:46:37 AM - SeleniumDriver - INFO: None
+26/01/2023 10:55:33 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 10:55:33 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 10:55:34 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 10:55:35 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 10:55:38 AM - SeleniumDriver - INFO: Element found with locator: a[rel='noopener noreferrer'] and  locatorType: css
+26/01/2023 10:55:38 AM - SeleniumDriver - INFO: None
+26/01/2023 10:56:23 AM - SeleniumDriver - INFO: Element found with locator: svg[class*='vvTc-item-icon'] and  locatorType: css
+26/01/2023 10:56:23 AM - SeleniumDriver - INFO: Clicked on element with locator: svg[class*='vvTc-item-icon'] locatorType: css
+26/01/2023 10:56:23 AM - SeleniumDriver - INFO: Element found with locator: input[placeholder='From?'] and  locatorType: css
+26/01/2023 10:56:24 AM - SeleniumDriver - INFO: Sent data on element with locator: input[placeholder='From?'] locatorType: css
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Element found with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: The text is :: 'San Francisco, California, United States'
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Element found with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Clicked on element with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name locatorType: css
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Element found with locator: input[placeholder='To?'] and  locatorType: css
+26/01/2023 10:56:25 AM - SeleniumDriver - INFO: Sent data on element with locator: input[placeholder='To?'] locatorType: css
+26/01/2023 10:56:26 AM - SeleniumDriver - INFO: Element found with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: The text is :: 'Tokyo, Japan'
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: Element found with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: Clicked on element with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name locatorType: css
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: Element found with locator: div:nth-child(1) > span > span.sR_k-value and  locatorType: css
+26/01/2023 10:56:27 AM - SeleniumDriver - INFO: Clicked on element with locator: div:nth-child(1) > span > span.sR_k-value locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element list NOT FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element not present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Return date not found, trying previous month!
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Previous month"] and  locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Previous month"] locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Return date is found, selecting it!
+26/01/2023 10:56:32 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Thursday January 26"] and  locatorType: css
+26/01/2023 10:56:33 AM - SeleniumDriver - INFO: Clicked on element with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:56:33 AM - SeleniumDriver - INFO: Return date clicked!
+26/01/2023 10:56:33 AM - SeleniumDriver - INFO: Element found with locator: div:nth-child(3) > span > span.sR_k-value and  locatorType: css
+26/01/2023 10:56:33 AM - SeleniumDriver - INFO: Clicked on element with locator: div:nth-child(3) > span > span.sR_k-value locatorType: css
+26/01/2023 10:56:38 AM - SeleniumDriver - INFO: Element list NOT FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:56:38 AM - SeleniumDriver - INFO: Element not present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:56:38 AM - SeleniumDriver - INFO: Return date not found, trying next month!
+26/01/2023 10:56:38 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:56:38 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:56:43 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:56:43 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[aria-label*="Saturday May 6"]"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55624bff92a3 <unknown>
+#1 0x55624bdb7f77 <unknown>
+#2 0x55624bdf480c <unknown>
+#3 0x55624bdf4a71 <unknown>
+#4 0x55624be2e734 <unknown>
+#5 0x55624be14b5d <unknown>
+#6 0x55624be2c47c <unknown>
+#7 0x55624be14903 <unknown>
+#8 0x55624bde7ece <unknown>
+#9 0x55624bde8fde <unknown>
+#10 0x55624c04963e <unknown>
+#11 0x55624c04cb79 <unknown>
+#12 0x55624c02f89e <unknown>
+#13 0x55624c04da83 <unknown>
+#14 0x55624c022505 <unknown>
+#15 0x55624c06eca8 <unknown>
+#16 0x55624c06ee36 <unknown>
+#17 0x55624c08a333 <unknown>
+#18 0x7fe497c94b43 <unknown>
+
+
+26/01/2023 10:56:43 AM - SeleniumDriver - ERROR: Element :: '' state could not be found
+26/01/2023 10:56:43 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:56:43 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:56:43 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-isDisabled mkUa-isHidden
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Element :: above is disabled.
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:56:44 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-isDisabled mkUa-isHidden
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Element :: above is disabled.
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:56:45 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-mod-legend-orange
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element :: above is enabled!
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-mod-legend-orange
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element :: above is enabled!
+26/01/2023 10:56:46 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:56:47 AM - SeleniumDriver - INFO: Clicked on element with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:56:47 AM - SeleniumDriver - INFO: === Return Date element found!!! ===
+26/01/2023 10:56:47 AM - SeleniumDriver - INFO: Element found with locator: button[title='Search'] span and  locatorType: css
+26/01/2023 10:56:48 AM - SeleniumDriver - INFO: Clicked on element with locator: button[title='Search'] span locatorType: css
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element found with title attribute value!
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element found with title attribute value!
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element list FOUND with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-01-26"] and locatorType: css
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element present with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-01-26"] locatorType: css
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Web Element with selected Departure date is present!
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element list FOUND with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-05-06"] and locatorType: css
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Element present with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-05-06"] locatorType: css
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: Web Element with selected Return date is present!
+26/01/2023 10:56:53 AM - SeleniumDriver - INFO: =====Scrolled down once=====
+26/01/2023 10:56:54 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price] and  locatorType: css
+26/01/2023 10:56:54 AM - SeleniumDriver - INFO: Clicked on element with locator: div[id*=price] locatorType: css
+26/01/2023 10:56:54 AM - SeleniumDriver - INFO: Element found with locator: div[id*='price-price-slider-sliderWidget-handle-0'] and  locatorType: css
+26/01/2023 10:56:54 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price-price-slider-sliderWidget] > div.header > div and  locatorType: css
+26/01/2023 10:56:56 AM - SeleniumDriver - INFO: ====== executed SeleniumDrivers move slide bar method =======
+26/01/2023 10:56:58 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price-price-slider-rangeLabel] > span.max and  locatorType: css
+26/01/2023 10:56:58 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:56:58 AM - SeleniumDriver - INFO: The text is :: '$6,300'
+26/01/2023 10:56:58 AM - SeleniumDriver - INFO: ==== Filter should display flights up to this price: 6300
+26/01/2023 10:56:58 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[class*='price-text'] and locatorType: css
+26/01/2023 10:57:16 AM - SeleniumDriver - INFO: Element found with locator: svg[class*='vvTc-item-icon'] and  locatorType: css
+26/01/2023 10:57:17 AM - SeleniumDriver - INFO: Clicked on element with locator: svg[class*='vvTc-item-icon'] locatorType: css
+26/01/2023 10:57:17 AM - SeleniumDriver - INFO: Element found with locator: input[placeholder='From?'] and  locatorType: css
+26/01/2023 10:57:17 AM - SeleniumDriver - INFO: Sent data on element with locator: input[placeholder='From?'] locatorType: css
+26/01/2023 10:57:18 AM - SeleniumDriver - INFO: Element found with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:57:18 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:57:18 AM - SeleniumDriver - INFO: The text is :: 'San Francisco, California, United States'
+26/01/2023 10:57:18 AM - SeleniumDriver - INFO: Element found with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:57:18 AM - SeleniumDriver - INFO: Clicked on element with locator: #flight-origin-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name locatorType: css
+26/01/2023 10:57:19 AM - SeleniumDriver - INFO: Element found with locator: input[placeholder='To?'] and  locatorType: css
+26/01/2023 10:57:19 AM - SeleniumDriver - INFO: Sent data on element with locator: input[placeholder='To?'] locatorType: css
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Element found with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: The text is :: 'Tokyo, Japan'
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Element found with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name and  locatorType: css
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Clicked on element with locator: #flight-destination-smarty-input-list > li:nth-child(1) > div > div.JyN0-name-container > div > span.JyN0-name locatorType: css
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Element found with locator: div:nth-child(1) > span > span.sR_k-value and  locatorType: css
+26/01/2023 10:57:20 AM - SeleniumDriver - INFO: Clicked on element with locator: div:nth-child(1) > span > span.sR_k-value locatorType: css
+26/01/2023 10:57:25 AM - SeleniumDriver - INFO: Element list NOT FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:57:25 AM - SeleniumDriver - INFO: Element not present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:57:25 AM - SeleniumDriver - INFO: Return date not found, trying previous month!
+26/01/2023 10:57:25 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Previous month"] and  locatorType: css
+26/01/2023 10:57:25 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Previous month"] locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Thursday January 26"] and locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Return date is found, selecting it!
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Thursday January 26"] and  locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Clicked on element with locator: div[aria-label*="Thursday January 26"] locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Return date clicked!
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Element found with locator: div:nth-child(3) > span > span.sR_k-value and  locatorType: css
+26/01/2023 10:57:26 AM - SeleniumDriver - INFO: Clicked on element with locator: div:nth-child(3) > span > span.sR_k-value locatorType: css
+26/01/2023 10:57:31 AM - SeleniumDriver - INFO: Element list NOT FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:57:31 AM - SeleniumDriver - INFO: Element not present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:57:31 AM - SeleniumDriver - INFO: Return date not found, trying next month!
+26/01/2023 10:57:31 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:57:31 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:57:36 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:57:36 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"div[aria-label*="Saturday May 6"]"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x5621687372a3 <unknown>
+#1 0x5621684f5f77 <unknown>
+#2 0x56216853280c <unknown>
+#3 0x562168532a71 <unknown>
+#4 0x56216856c734 <unknown>
+#5 0x562168552b5d <unknown>
+#6 0x56216856a47c <unknown>
+#7 0x562168552903 <unknown>
+#8 0x562168525ece <unknown>
+#9 0x562168526fde <unknown>
+#10 0x56216878763e <unknown>
+#11 0x56216878ab79 <unknown>
+#12 0x56216876d89e <unknown>
+#13 0x56216878ba83 <unknown>
+#14 0x562168760505 <unknown>
+#15 0x5621687acca8 <unknown>
+#16 0x5621687ace36 <unknown>
+#17 0x5621687c8333 <unknown>
+#18 0x7fadbb294b43 <unknown>
+
+
+26/01/2023 10:57:36 AM - SeleniumDriver - ERROR: Element :: '' state could not be found
+26/01/2023 10:57:36 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:57:36 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:57:36 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-isDisabled mkUa-isHidden
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Element :: above is disabled.
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:57:37 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-isDisabled mkUa-isHidden
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Element :: above is disabled.
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Return date is Disabled, trying next month for enabled element match!
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Element found with locator: button[aria-label="Next Month"] and  locatorType: css
+26/01/2023 10:57:38 AM - SeleniumDriver - INFO: Clicked on element with locator: button[aria-label="Next Month"] locatorType: css
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[aria-label*="Saturday May 6"] and locatorType: css
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element present with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-mod-legend-orange
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element :: above is enabled!
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Attribute value From Application Web UI --> :: mkUa mkUa-pres-mcfly mkUa-mod-legend-orange
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element :: above is enabled!
+26/01/2023 10:57:39 AM - SeleniumDriver - INFO: Element found with locator: div[aria-label*="Saturday May 6"] and  locatorType: css
+26/01/2023 10:57:40 AM - SeleniumDriver - INFO: Clicked on element with locator: div[aria-label*="Saturday May 6"] locatorType: css
+26/01/2023 10:57:40 AM - SeleniumDriver - INFO: === Return Date element found!!! ===
+26/01/2023 10:57:40 AM - SeleniumDriver - INFO: Element found with locator: button[title='Search'] span and  locatorType: css
+26/01/2023 10:57:41 AM - SeleniumDriver - INFO: Clicked on element with locator: button[title='Search'] span locatorType: css
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element found with title attribute value!
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element found with title attribute value!
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element list FOUND with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-01-26"] and locatorType: css
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element present with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-01-26"] locatorType: css
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Web Element with selected Departure date is present!
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element list FOUND with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-05-06"] and locatorType: css
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Element present with locator: button[class='Button-No-Standard-Style js-bar item selected '][data-date*="2023-05-06"] locatorType: css
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: Web Element with selected Return date is present!
+26/01/2023 10:57:47 AM - SeleniumDriver - INFO: =====Scrolled down once=====
+26/01/2023 10:57:48 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price] and  locatorType: css
+26/01/2023 10:57:48 AM - SeleniumDriver - INFO: Clicked on element with locator: div[id*=price] locatorType: css
+26/01/2023 10:57:48 AM - SeleniumDriver - INFO: Element found with locator: div[id*='price-price-slider-sliderWidget-handle-0'] and  locatorType: css
+26/01/2023 10:57:48 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price-price-slider-sliderWidget] > div.header > div and  locatorType: css
+26/01/2023 10:57:49 AM - SeleniumDriver - INFO: ====== executed SeleniumDrivers move slide bar method =======
+26/01/2023 10:57:51 AM - SeleniumDriver - INFO: Element found with locator: div[id*=price-price-slider-rangeLabel] > span.max and  locatorType: css
+26/01/2023 10:57:51 AM - SeleniumDriver - INFO: Getting text on element :: 
+26/01/2023 10:57:51 AM - SeleniumDriver - INFO: The text is :: '$5,500'
+26/01/2023 10:57:51 AM - SeleniumDriver - INFO: ==== Filter should display flights up to this price: 5500
+26/01/2023 10:57:52 AM - SeleniumDriver - INFO: Element list FOUND with locator: div[class*='price-text'] and locatorType: css
+26/01/2023 11:07:55 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:07:56 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:07:57 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:07:57 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:11:06 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:11:07 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:11:08 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:11:08 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:11:13 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 11:11:13 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x5615760752a3 <unknown>
+#1 0x561575e33f77 <unknown>
+#2 0x561575e7080c <unknown>
+#3 0x561575e70a71 <unknown>
+#4 0x561575eaa734 <unknown>
+#5 0x561575e90b5d <unknown>
+#6 0x561575ea847c <unknown>
+#7 0x561575e90903 <unknown>
+#8 0x561575e63ece <unknown>
+#9 0x561575e64fde <unknown>
+#10 0x5615760c563e <unknown>
+#11 0x5615760c8b79 <unknown>
+#12 0x5615760ab89e <unknown>
+#13 0x5615760c9a83 <unknown>
+#14 0x56157609e505 <unknown>
+#15 0x5615760eaca8 <unknown>
+#16 0x5615760eae36 <unknown>
+#17 0x561576106333 <unknown>
+#18 0x7faf79294b43 <unknown>
+
+
+26/01/2023 11:11:13 AM - SeleniumDriver - INFO: None
+26/01/2023 11:14:32 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:14:33 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:14:34 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:14:34 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:14:39 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 11:14:39 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x558b6e7452a3 <unknown>
+#1 0x558b6e503f77 <unknown>
+#2 0x558b6e54080c <unknown>
+#3 0x558b6e540a71 <unknown>
+#4 0x558b6e57a734 <unknown>
+#5 0x558b6e560b5d <unknown>
+#6 0x558b6e57847c <unknown>
+#7 0x558b6e560903 <unknown>
+#8 0x558b6e533ece <unknown>
+#9 0x558b6e534fde <unknown>
+#10 0x558b6e79563e <unknown>
+#11 0x558b6e798b79 <unknown>
+#12 0x558b6e77b89e <unknown>
+#13 0x558b6e799a83 <unknown>
+#14 0x558b6e76e505 <unknown>
+#15 0x558b6e7baca8 <unknown>
+#16 0x558b6e7bae36 <unknown>
+#17 0x558b6e7d6333 <unknown>
+#18 0x7ff87e494b43 <unknown>
+
+
+26/01/2023 11:14:39 AM - SeleniumDriver - INFO: None
+26/01/2023 11:18:00 AM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 11:18:00 AM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 11:18:01 AM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 11:18:01 AM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 11:18:01 AM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 11:18:01 AM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 11:18:01 AM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 11:18:02 AM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 11:18:02 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 11:18:02 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 11:18:02 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 11:18:04 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 11:18:04 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 11:18:04 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 11:18:04 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 11:18:06 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 11:18:06 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 11:18:06 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 11:18:06 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 11:18:07 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 11:18:07 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap trains')] and locatorType: xpath
+26/01/2023 11:18:07 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap trains')] locatorType: xpath
+26/01/2023 11:18:08 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Search for packages'] and  locatorType: css
+26/01/2023 11:18:08 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 11:18:09 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Search and compare vacation packages')] and locatorType: xpath
+26/01/2023 11:18:09 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Search and compare vacation packages')] locatorType: xpath
+26/01/2023 11:18:09 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Go to Explore'] and  locatorType: css
+26/01/2023 11:18:09 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 11:18:11 AM - SeleniumDriver - INFO: Element list FOUND with locator: //div[contains(@id,'header-title')] and locatorType: xpath
+26/01/2023 11:18:11 AM - SeleniumDriver - INFO: Element present with locator: //div[contains(@id,'header-title')] locatorType: xpath
+26/01/2023 11:18:11 AM - SeleniumDriver - INFO: Element found with locator: div[class=UVLb] [href="/trips"] and  locatorType: css
+26/01/2023 11:18:12 AM - SeleniumDriver - INFO: Clicked on element with locator: div[class=UVLb] [href="/trips"] locatorType: css
+26/01/2023 11:18:12 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'An easier way to manage your trips')] and locatorType: xpath
+26/01/2023 11:18:12 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'An easier way to manage your trips')] locatorType: xpath
+26/01/2023 11:18:12 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Find out where you can travel'] and  locatorType: css
+26/01/2023 11:18:13 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Find out where you can travel'] locatorType: css
+26/01/2023 11:18:13 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Travel restrictions worldwide')] and locatorType: xpath
+26/01/2023 11:18:13 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Travel restrictions worldwide')] locatorType: xpath
+26/01/2023 11:23:20 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:23:20 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:23:21 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:23:22 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:24:25 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:24:25 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 11:24:27 AM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 11:24:28 AM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 11:24:28 AM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 11:24:28 AM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 11:24:29 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 11:24:29 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 11:24:29 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 11:24:30 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 11:24:31 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 11:24:31 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 11:24:31 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 11:24:33 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 11:24:33 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 11:24:33 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 11:24:33 AM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 11:24:34 AM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 11:24:34 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap trains')] and locatorType: xpath
+26/01/2023 11:24:34 AM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap trains')] locatorType: xpath
+26/01/2023 11:24:34 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Search for packages'] and  locatorType: css
+26/01/2023 11:24:35 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 11:24:35 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Search and compare vacation packages')] and locatorType: xpath
+26/01/2023 11:24:35 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Search and compare vacation packages')] locatorType: xpath
+26/01/2023 11:24:35 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Go to Explore'] and  locatorType: css
+26/01/2023 11:24:36 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 11:24:38 AM - SeleniumDriver - INFO: Element list FOUND with locator: //div[contains(@id,'header-title')] and locatorType: xpath
+26/01/2023 11:24:38 AM - SeleniumDriver - INFO: Element present with locator: //div[contains(@id,'header-title')] locatorType: xpath
+26/01/2023 11:24:38 AM - SeleniumDriver - INFO: Element found with locator: div[class=UVLb] [href="/trips"] and  locatorType: css
+26/01/2023 11:24:38 AM - SeleniumDriver - INFO: Clicked on element with locator: div[class=UVLb] [href="/trips"] locatorType: css
+26/01/2023 11:24:39 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'An easier way to manage your trips')] and locatorType: xpath
+26/01/2023 11:24:39 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'An easier way to manage your trips')] locatorType: xpath
+26/01/2023 11:24:39 AM - SeleniumDriver - INFO: Element found with locator: [aria-label='Find out where you can travel'] and  locatorType: css
+26/01/2023 11:24:40 AM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Find out where you can travel'] locatorType: css
+26/01/2023 11:24:40 AM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Travel restrictions worldwide')] and locatorType: xpath
+26/01/2023 11:24:40 AM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Travel restrictions worldwide')] locatorType: xpath
+26/01/2023 11:26:14 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:26:14 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:26:15 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:26:16 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:26:21 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 11:26:21 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x55a2c72d22a3 <unknown>
+#1 0x55a2c7090f77 <unknown>
+#2 0x55a2c70cd80c <unknown>
+#3 0x55a2c70cda71 <unknown>
+#4 0x55a2c7107734 <unknown>
+#5 0x55a2c70edb5d <unknown>
+#6 0x55a2c710547c <unknown>
+#7 0x55a2c70ed903 <unknown>
+#8 0x55a2c70c0ece <unknown>
+#9 0x55a2c70c1fde <unknown>
+#10 0x55a2c732263e <unknown>
+#11 0x55a2c7325b79 <unknown>
+#12 0x55a2c730889e <unknown>
+#13 0x55a2c7326a83 <unknown>
+#14 0x55a2c72fb505 <unknown>
+#15 0x55a2c7347ca8 <unknown>
+#16 0x55a2c7347e36 <unknown>
+#17 0x55a2c7363333 <unknown>
+#18 0x7f2bcb894b43 <unknown>
+
+
+26/01/2023 11:26:21 AM - SeleniumDriver - INFO: None
+26/01/2023 11:27:09 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:27:10 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:27:11 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:27:12 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:27:17 AM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 11:27:17 AM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x564b5a8792a3 <unknown>
+#1 0x564b5a637f77 <unknown>
+#2 0x564b5a67480c <unknown>
+#3 0x564b5a674a71 <unknown>
+#4 0x564b5a6ae734 <unknown>
+#5 0x564b5a694b5d <unknown>
+#6 0x564b5a6ac47c <unknown>
+#7 0x564b5a694903 <unknown>
+#8 0x564b5a667ece <unknown>
+#9 0x564b5a668fde <unknown>
+#10 0x564b5a8c963e <unknown>
+#11 0x564b5a8ccb79 <unknown>
+#12 0x564b5a8af89e <unknown>
+#13 0x564b5a8cda83 <unknown>
+#14 0x564b5a8a2505 <unknown>
+#15 0x564b5a8eeca8 <unknown>
+#16 0x564b5a8eee36 <unknown>
+#17 0x564b5a90a333 <unknown>
+#18 0x7f04dd894b43 <unknown>
+
+
+26/01/2023 11:27:17 AM - SeleniumDriver - INFO: None
+26/01/2023 11:27:56 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:27:57 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:28:46 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:28:46 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:29:11 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:29:11 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:29:29 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:29:29 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:30:51 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:30:52 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:31:34 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:31:35 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:31:41 AM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 11:31:41 AM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 11:34:17 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:34:17 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:46:52 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:46:53 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:48:18 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:48:18 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:50:14 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:50:14 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:50:56 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:50:56 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:51:27 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:51:27 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:51:49 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:51:50 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:53:09 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:53:09 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:55:32 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:55:32 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:56:26 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:56:26 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:59:13 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:59:13 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 11:59:56 AM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 11:59:56 AM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 12:03:14 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 12:03:14 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 12:03:32 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 12:03:32 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 12:03:35 PM - SeleniumDriver - INFO: CDwindow-E347D49FFC0AEBE9AE910572FA5FDB2B
+26/01/2023 12:03:35 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 12:03:35 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 12:03:40 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 12:03:40 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x559977b452a3 <unknown>
+#1 0x559977903f77 <unknown>
+#2 0x55997794080c <unknown>
+#3 0x559977940a71 <unknown>
+#4 0x55997797a734 <unknown>
+#5 0x559977960b5d <unknown>
+#6 0x55997797847c <unknown>
+#7 0x559977960903 <unknown>
+#8 0x559977933ece <unknown>
+#9 0x559977934fde <unknown>
+#10 0x559977b9563e <unknown>
+#11 0x559977b98b79 <unknown>
+#12 0x559977b7b89e <unknown>
+#13 0x559977b99a83 <unknown>
+#14 0x559977b6e505 <unknown>
+#15 0x559977bbaca8 <unknown>
+#16 0x559977bbae36 <unknown>
+#17 0x559977bd6333 <unknown>
+#18 0x7f0b6c894b43 <unknown>
+
+
+26/01/2023 12:03:40 PM - SeleniumDriver - INFO: None
+26/01/2023 01:25:14 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:25:14 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:25:38 PM - SeleniumDriver - INFO: CDwindow-CEBF6BBCDFD602B03F9230CF1BB1FC16
+26/01/2023 01:25:42 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 01:25:42 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 01:25:56 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 01:25:56 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x555e6f3b62a3 <unknown>
+#1 0x555e6f174f77 <unknown>
+#2 0x555e6f1b180c <unknown>
+#3 0x555e6f1b1a71 <unknown>
+#4 0x555e6f1eb734 <unknown>
+#5 0x555e6f1d1b5d <unknown>
+#6 0x555e6f1e947c <unknown>
+#7 0x555e6f1d1903 <unknown>
+#8 0x555e6f1a4ece <unknown>
+#9 0x555e6f1a5fde <unknown>
+#10 0x555e6f40663e <unknown>
+#11 0x555e6f409b79 <unknown>
+#12 0x555e6f3ec89e <unknown>
+#13 0x555e6f40aa83 <unknown>
+#14 0x555e6f3df505 <unknown>
+#15 0x555e6f42bca8 <unknown>
+#16 0x555e6f42be36 <unknown>
+#17 0x555e6f447333 <unknown>
+#18 0x7f5545c94b43 <unknown>
+
+
+26/01/2023 01:26:45 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:26:45 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:26:51 PM - SeleniumDriver - INFO: CDwindow-2EADE3E7FFC19EB0D9AAF1F90A8179F4
+26/01/2023 01:26:52 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 01:26:52 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 01:27:01 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 01:27:01 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x558869b5f2a3 <unknown>
+#1 0x55886991df77 <unknown>
+#2 0x55886995a80c <unknown>
+#3 0x55886995aa71 <unknown>
+#4 0x558869994734 <unknown>
+#5 0x55886997ab5d <unknown>
+#6 0x55886999247c <unknown>
+#7 0x55886997a903 <unknown>
+#8 0x55886994dece <unknown>
+#9 0x55886994efde <unknown>
+#10 0x558869baf63e <unknown>
+#11 0x558869bb2b79 <unknown>
+#12 0x558869b9589e <unknown>
+#13 0x558869bb3a83 <unknown>
+#14 0x558869b88505 <unknown>
+#15 0x558869bd4ca8 <unknown>
+#16 0x558869bd4e36 <unknown>
+#17 0x558869bf0333 <unknown>
+#18 0x7f18f2294b43 <unknown>
+
+
+26/01/2023 01:27:55 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:27:55 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:28:30 PM - SeleniumDriver - INFO: CDwindow-E76F207A7F29129B7DFC7CEE963E2239
+26/01/2023 01:28:31 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 01:28:31 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 01:29:54 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:29:55 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:29:58 PM - SeleniumDriver - INFO: CDwindow-7513AA140D9A9ECB7A807F1C3173BD3B
+26/01/2023 01:29:58 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 01:29:58 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 01:30:15 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:30:15 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:30:18 PM - SeleniumDriver - INFO: CDwindow-BDF0AC75128B8417C29E05FA0822D3CC
+26/01/2023 01:30:18 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 01:30:19 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 01:30:24 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: a[rel='noopener noreferrer'] and locatorType: css
+26/01/2023 01:30:24 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"a[rel='noopener noreferrer']"}
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x556af5c972a3 <unknown>
+#1 0x556af5a55f77 <unknown>
+#2 0x556af5a9280c <unknown>
+#3 0x556af5a92a71 <unknown>
+#4 0x556af5acc734 <unknown>
+#5 0x556af5ab2b5d <unknown>
+#6 0x556af5aca47c <unknown>
+#7 0x556af5ab2903 <unknown>
+#8 0x556af5a85ece <unknown>
+#9 0x556af5a86fde <unknown>
+#10 0x556af5ce763e <unknown>
+#11 0x556af5ceab79 <unknown>
+#12 0x556af5ccd89e <unknown>
+#13 0x556af5ceba83 <unknown>
+#14 0x556af5cc0505 <unknown>
+#15 0x556af5d0cca8 <unknown>
+#16 0x556af5d0ce36 <unknown>
+#17 0x556af5d28333 <unknown>
+#18 0x7f4db3c94b43 <unknown>
+
+
+26/01/2023 01:30:24 PM - SeleniumDriver - INFO: None
+26/01/2023 01:35:32 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:35:32 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:38:46 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:38:47 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:49:03 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:49:04 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:49:05 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:49:05 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:49:05 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:49:06 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:49:11 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:49:11 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 01:49:12 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 01:49:12 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 01:49:12 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 01:49:12 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 01:49:14 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 01:49:14 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 01:49:14 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 01:49:15 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 01:49:17 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 01:49:17 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 01:49:17 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 01:49:17 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 01:49:18 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 01:49:18 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: [aria-label='Search for packages'] and locatorType: css
+26/01/2023 01:49:18 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x556aced472a3 <unknown>
+#1 0x556aceb05f77 <unknown>
+#2 0x556aceae1515 <unknown>
+#3 0x556aceb66fff <unknown>
+#4 0x556aceb79e43 <unknown>
+#5 0x556aceb62903 <unknown>
+#6 0x556aceb35ece <unknown>
+#7 0x556aceb36fde <unknown>
+#8 0x556aced9763e <unknown>
+#9 0x556aced9ab79 <unknown>
+#10 0x556aced7d89e <unknown>
+#11 0x556aced9ba83 <unknown>
+#12 0x556aced70505 <unknown>
+#13 0x556acedbcca8 <unknown>
+#14 0x556acedbce36 <unknown>
+#15 0x556acedd8333 <unknown>
+#16 0x7fe22e094b43 <unknown>
+
+
+26/01/2023 01:49:18 PM - SeleniumDriver - INFO: Cannot click on the element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 01:49:18 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: [aria-label='Go to Explore'] and locatorType: css
+26/01/2023 01:49:18 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x556aced472a3 <unknown>
+#1 0x556aceb05f77 <unknown>
+#2 0x556aceae1515 <unknown>
+#3 0x556aceb66fff <unknown>
+#4 0x556aceb79e43 <unknown>
+#5 0x556aceb62903 <unknown>
+#6 0x556aceb35ece <unknown>
+#7 0x556aceb36fde <unknown>
+#8 0x556aced9763e <unknown>
+#9 0x556aced9ab79 <unknown>
+#10 0x556aced7d89e <unknown>
+#11 0x556aced9ba83 <unknown>
+#12 0x556aced70505 <unknown>
+#13 0x556acedbcca8 <unknown>
+#14 0x556acedbce36 <unknown>
+#15 0x556acedd8333 <unknown>
+#16 0x7fe22e094b43 <unknown>
+
+
+26/01/2023 01:49:18 PM - SeleniumDriver - INFO: Cannot click on the element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 01:49:19 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: div[class=UVLb] [href="/trips"] and locatorType: css
+26/01/2023 01:49:19 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x556aced472a3 <unknown>
+#1 0x556aceb05f77 <unknown>
+#2 0x556aceae1515 <unknown>
+#3 0x556aceb66fff <unknown>
+#4 0x556aceb79e43 <unknown>
+#5 0x556aceb62903 <unknown>
+#6 0x556aceb35ece <unknown>
+#7 0x556aceb36fde <unknown>
+#8 0x556aced9763e <unknown>
+#9 0x556aced9ab79 <unknown>
+#10 0x556aced7d89e <unknown>
+#11 0x556aced9ba83 <unknown>
+#12 0x556aced70505 <unknown>
+#13 0x556acedbcca8 <unknown>
+#14 0x556acedbce36 <unknown>
+#15 0x556acedd8333 <unknown>
+#16 0x7fe22e094b43 <unknown>
+
+
+26/01/2023 01:49:19 PM - SeleniumDriver - INFO: Cannot click on the element with locator: div[class=UVLb] [href="/trips"] locatorType: css
+26/01/2023 01:49:19 PM - SeleniumDriver - INFO: Element raised some of the WebDriverExceptions with locator: [aria-label='Find out where you can travel'] and locatorType: css
+26/01/2023 01:49:19 PM - SeleniumDriver - ERROR: Exception Caught: Traceback (most recent call last):
+  File "/home/igor/GIT/bookflightAutomation/base/selenium_driver.py", line 45, in getElement
+    element = self.driver.find_element(byType, locator)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 861, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/igor/acct_automate/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.124)
+Stacktrace:
+#0 0x556aced472a3 <unknown>
+#1 0x556aceb05f77 <unknown>
+#2 0x556aceae1515 <unknown>
+#3 0x556aceb66fff <unknown>
+#4 0x556aceb79e43 <unknown>
+#5 0x556aceb62903 <unknown>
+#6 0x556aceb35ece <unknown>
+#7 0x556aceb36fde <unknown>
+#8 0x556aced9763e <unknown>
+#9 0x556aced9ab79 <unknown>
+#10 0x556aced7d89e <unknown>
+#11 0x556aced9ba83 <unknown>
+#12 0x556aced70505 <unknown>
+#13 0x556acedbcca8 <unknown>
+#14 0x556acedbce36 <unknown>
+#15 0x556acedd8333 <unknown>
+#16 0x7fe22e094b43 <unknown>
+
+
+26/01/2023 01:49:19 PM - SeleniumDriver - INFO: Cannot click on the element with locator: [aria-label='Find out where you can travel'] locatorType: css
+26/01/2023 01:49:28 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:49:28 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:49:29 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:49:30 PM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:49:30 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 01:49:31 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 01:49:31 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 01:49:31 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 01:49:31 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 01:49:33 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 01:49:35 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 01:49:35 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 01:49:35 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 01:49:38 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 01:49:38 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 01:49:38 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 01:49:38 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 01:49:39 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 01:49:39 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap trains')] and locatorType: xpath
+26/01/2023 01:49:39 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap trains')] locatorType: xpath
+26/01/2023 01:49:39 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Search for packages'] and  locatorType: css
+26/01/2023 01:49:40 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 01:49:41 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Search and compare vacation packages')] and locatorType: xpath
+26/01/2023 01:49:41 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Search and compare vacation packages')] locatorType: xpath
+26/01/2023 01:49:41 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Go to Explore'] and  locatorType: css
+26/01/2023 01:49:41 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 01:49:43 PM - SeleniumDriver - INFO: Element list FOUND with locator: //div[contains(@id,'header-title')] and locatorType: xpath
+26/01/2023 01:49:43 PM - SeleniumDriver - INFO: Element present with locator: //div[contains(@id,'header-title')] locatorType: xpath
+26/01/2023 01:49:43 PM - SeleniumDriver - INFO: Element found with locator: div[class=UVLb] [href="/trips"] and  locatorType: css
+26/01/2023 01:49:44 PM - SeleniumDriver - INFO: Clicked on element with locator: div[class=UVLb] [href="/trips"] locatorType: css
+26/01/2023 01:49:44 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'An easier way to manage your trips')] and locatorType: xpath
+26/01/2023 01:49:44 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'An easier way to manage your trips')] locatorType: xpath
+26/01/2023 01:49:54 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Find out where you can travel'] and  locatorType: css
+26/01/2023 01:49:55 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Find out where you can travel'] locatorType: css
+26/01/2023 01:49:57 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Travel restrictions worldwide')] and locatorType: xpath
+26/01/2023 01:49:57 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Travel restrictions worldwide')] locatorType: xpath
+26/01/2023 01:51:03 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:51:04 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 01:51:05 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 01:51:06 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:51:06 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:51:06 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:51:07 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:51:07 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 01:51:08 PM - SeleniumDriver - INFO: Cannot click on the element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 01:51:08 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 01:51:08 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 01:51:08 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 01:51:09 PM - SeleniumDriver - INFO: Cannot click on the element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 01:51:14 PM - SeleniumDriver - INFO: Element list NOT FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 01:51:14 PM - SeleniumDriver - INFO: Element not present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 01:51:14 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 01:51:15 PM - SeleniumDriver - INFO: Cannot click on the element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 01:51:20 PM - SeleniumDriver - INFO: Element list NOT FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 01:51:20 PM - SeleniumDriver - INFO: Element not present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 01:51:20 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 01:51:21 PM - SeleniumDriver - INFO: Cannot click on the element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 01:51:26 PM - SeleniumDriver - INFO: Element list NOT FOUND with locator: //h2[contains(.,'Find and compare cheap trains')] and locatorType: xpath
+26/01/2023 01:51:26 PM - SeleniumDriver - INFO: Element not present with locator: //h2[contains(.,'Find and compare cheap trains')] locatorType: xpath
+26/01/2023 01:51:26 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Search for packages'] and  locatorType: css
+26/01/2023 01:51:27 PM - SeleniumDriver - INFO: Cannot click on the element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 01:51:29 PM - SeleniumDriver - INFO: Cannot click on the element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 01:51:34 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 01:51:35 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 01:51:36 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:51:36 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:51:36 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:51:36 PM - SeleniumDriver - INFO: Clicked on element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:51:36 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge and  locatorType: css
+26/01/2023 01:51:37 PM - SeleniumDriver - INFO: Clicked on element with locator: div.hsCY-menu-item-icon.hsCY-icon-with-badge locatorType: css
+26/01/2023 01:51:37 PM - SeleniumDriver - INFO: Element list FOUND with locator: div.magicLinkLoginImage.unified-login and locatorType: css
+26/01/2023 01:51:37 PM - SeleniumDriver - INFO: Element present with locator: div.magicLinkLoginImage.unified-login locatorType: css
+26/01/2023 01:51:37 PM - SeleniumDriver - INFO: Element found with locator: .dDYU-closeIcon.dDYU-mod-theme-default and  locatorType: css
+26/01/2023 01:51:38 PM - SeleniumDriver - INFO: Cannot click on the element with locator: .dDYU-closeIcon.dDYU-mod-theme-default locatorType: css
+26/01/2023 01:51:38 PM - SeleniumDriver - INFO: Element found with locator: div.hsCY-menu-item-title.hsCY-active and  locatorType: css
+26/01/2023 01:51:39 PM - SeleniumDriver - INFO: Cannot click on the element with locator: div.hsCY-menu-item-title.hsCY-active locatorType: css
+26/01/2023 01:51:39 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap flights')] and locatorType: xpath
+26/01/2023 01:51:39 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap flights')] locatorType: xpath
+26/01/2023 01:51:39 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for hotels'] and  locatorType: css
+26/01/2023 01:51:40 PM - SeleniumDriver - INFO: Cannot click on the element with locator: a[aria-label='Search for hotels'] locatorType: css
+26/01/2023 01:51:45 PM - SeleniumDriver - INFO: Element list NOT FOUND with locator: //h2[contains(.,'Find and compare hotel deals')] and locatorType: xpath
+26/01/2023 01:51:45 PM - SeleniumDriver - INFO: Element not present with locator: //h2[contains(.,'Find and compare hotel deals')] locatorType: xpath
+26/01/2023 01:51:45 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for cars'] and  locatorType: css
+26/01/2023 01:51:46 PM - SeleniumDriver - INFO: Cannot click on the element with locator: a[aria-label='Search for cars'] locatorType: css
+26/01/2023 01:51:51 PM - SeleniumDriver - INFO: Element list NOT FOUND with locator: //h2[contains(.,'Find and compare the best car rental deals')] and locatorType: xpath
+26/01/2023 01:51:51 PM - SeleniumDriver - INFO: Element not present with locator: //h2[contains(.,'Find and compare the best car rental deals')] locatorType: xpath
+26/01/2023 01:51:51 PM - SeleniumDriver - INFO: Element found with locator: a[aria-label='Search for trains'] and  locatorType: css
+26/01/2023 01:51:52 PM - SeleniumDriver - INFO: Clicked on element with locator: a[aria-label='Search for trains'] locatorType: css
+26/01/2023 01:51:52 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h2[contains(.,'Find and compare cheap trains')] and locatorType: xpath
+26/01/2023 01:51:52 PM - SeleniumDriver - INFO: Element present with locator: //h2[contains(.,'Find and compare cheap trains')] locatorType: xpath
+26/01/2023 01:51:52 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Search for packages'] and  locatorType: css
+26/01/2023 01:51:53 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Search for packages'] locatorType: css
+26/01/2023 01:51:53 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Search and compare vacation packages')] and locatorType: xpath
+26/01/2023 01:51:53 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Search and compare vacation packages')] locatorType: xpath
+26/01/2023 01:51:54 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Go to Explore'] and  locatorType: css
+26/01/2023 01:51:54 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Go to Explore'] locatorType: css
+26/01/2023 01:51:56 PM - SeleniumDriver - INFO: Element list FOUND with locator: //div[contains(@id,'header-title')] and locatorType: xpath
+26/01/2023 01:51:56 PM - SeleniumDriver - INFO: Element present with locator: //div[contains(@id,'header-title')] locatorType: xpath
+26/01/2023 01:51:56 PM - SeleniumDriver - INFO: Element found with locator: div[class=UVLb] [href="/trips"] and  locatorType: css
+26/01/2023 01:51:58 PM - SeleniumDriver - INFO: Clicked on element with locator: div[class=UVLb] [href="/trips"] locatorType: css
+26/01/2023 01:51:58 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'An easier way to manage your trips')] and locatorType: xpath
+26/01/2023 01:51:58 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'An easier way to manage your trips')] locatorType: xpath
+26/01/2023 01:52:00 PM - SeleniumDriver - INFO: Element found with locator: [aria-label='Find out where you can travel'] and  locatorType: css
+26/01/2023 01:52:02 PM - SeleniumDriver - INFO: Clicked on element with locator: [aria-label='Find out where you can travel'] locatorType: css
+26/01/2023 01:52:04 PM - SeleniumDriver - INFO: Element list FOUND with locator: //h1[contains(.,'Travel restrictions worldwide')] and locatorType: xpath
+26/01/2023 01:52:04 PM - SeleniumDriver - INFO: Element present with locator: //h1[contains(.,'Travel restrictions worldwide')] locatorType: xpath
+26/01/2023 03:07:29 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:07:29 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:08:37 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:08:37 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:33:14 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:33:15 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:35:41 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:35:41 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:36:26 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:36:26 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:36:30 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 03:36:30 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 03:37:02 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:37:02 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:37:06 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 03:37:06 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 03:37:55 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:37:55 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:37:59 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 03:37:59 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
+26/01/2023 03:38:24 PM - SeleniumDriver - INFO: Element found with locator: div.sign-in-nav-link and  locatorType: css
+26/01/2023 03:38:24 PM - SeleniumDriver - INFO: Clicked on element with locator: div.sign-in-nav-link locatorType: css
+26/01/2023 03:38:27 PM - SeleniumDriver - INFO: Element found with locator: .social-button-icon.social-button-icon-booking and  locatorType: css
+26/01/2023 03:38:27 PM - SeleniumDriver - INFO: Clicked on element with locator: .social-button-icon.social-button-icon-booking locatorType: css
